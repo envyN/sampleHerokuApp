@@ -1,0 +1,30 @@
+{
+  "name": "herokuApp",
+  "version": "0.0.0",
+  "description": "First Sample Heroku App",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/envyN/sampleHerokuApp.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "envy-Naveen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/envyN/sampleHerokuApp/issues"
+  },
+  "homepage": "https://github.com/envyN/sampleHerokuApp",
+  "dependencies": {
+    "express": "^4.8.2",
+    "logfmt": "^1.1.2"
+  },
+"engines": {
+    "node": "0.10.x"
+  }
+}
