@@ -21,10 +21,11 @@
   },
   "homepage": "https://github.com/envyN/sampleHerokuApp",
   "dependencies": {
-    "express": "^4.8.2",
-    "logfmt": "^1.1.2"
+    "express": "^4.8.3",
+    "logfmt": "^1.1.2",
+    "path": "^0.4.9"
   },
-"engines": {
+  "engines": {
     "node": "0.10.x"
   }
 }
