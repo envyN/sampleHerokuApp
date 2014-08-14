@@ -3,6 +3,8 @@ var express = require("express");
 var logfmt = require("logfmt");
 var app = express();
 var path = require('path');
+var compress = require('compression')();
+app.use(compress);
 
 var oneDay = 86400000;
 
