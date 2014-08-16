@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="intro-message">
+            <h3>Compare Destinations Across India</h3>
+            <hr class="intro-divider">
+            <div style="margin: auto;" class="row">
+                <div style="color: black;" class="col-lg-5 col-sm-12">
+                    <h4 style="color:wheat">Site A</h4>
+                    <br>
+                    <select class="form-control"ng-model="compareA" ng-options="site.name group by site.popularity for site in sites">
+                        <option value=""  style="text-align: center">-- choose site A --</option>
+                    </select>
+                </div>
+                <span class="col-lg-2 col-sm-12">V/S</span>
+                <div style="color: black;" class="col-lg-5 col-sm-12">
+                    <h4 style="color:wheat">Site B</h4>
+                    <br>
+                    <select class="form-control"ng-model="compareB" ng-options="site.name group by site.popularity for site in sites">
+                        <option value="" style="text-align: center">-- choose site B --</option>
+                    </select>
+                </div>
+                <hr class="col-lg-12 col-sm-12">
+
+                <div style="padding: auto;margin-top: 10px;"class="col-lg-2 col-lg-offset-5 col-sm-12">
+                    <button style="margin:auto;" class="form-control btn btn-success" ng-click="compareDestinations()">Go</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
