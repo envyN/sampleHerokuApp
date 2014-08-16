@@ -9,7 +9,7 @@ app.use(compress);
 var oneDay = 86400000;
 
 app.use(express.static(__dirname + '/public'));
-app.use('/hotspots', express.static(__dirname + '/public/hotspots/app', {maxAge: oneDay}));
+app.use('/topspot', express.static(__dirname + '/public/topspot/app', {maxAge: oneDay}));
 app.use(logfmt.requestLogger());
 
 //app.get('/', function(req, res) {
